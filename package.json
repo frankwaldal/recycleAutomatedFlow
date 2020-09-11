@@ -1,0 +1,20 @@
+{
+  "name": "recycleautomatedflow",
+  "version": "1.0.0",
+  "description": "Workflow 2 CA - Noroff",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Frank Waldal",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.12",
+    "gulp": "^4.0.2",
+    "gulp-csso": "^4.0.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-jsmin": "^0.1.5",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0"
+  }
+}

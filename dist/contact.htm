@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Contact information for Re-cycle, guided bicycle tours in the Mjøsaregion">
+    <meta name="keywords" content="bicycle,guided,contact,mjøsa">
+    <meta name="author" content="Frank Waldal">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Re-cycle - Contact</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <header>
+        <img src="img/logo.svg" alt="Logo">
+    </header>
+    <nav>
+        <div id="menuLogo">
+        </div>
+        <div class="menuButton">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu">
+            <ul>
+                <a href="index.htm"><li>Home</li></a>
+                <a href="about.htm"><li>About Us</li></a>
+                <a href="routes.htm"><li>Routes</li></a>
+                <a href="gallery.htm"><li>Image Gallery</li></a>
+                <a href="contact.htm" class="active"><li>Contact Us</li></a>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <article>
+            <div class="flex-item contact-site">
+                <h3 class="address">Re-cycle</h3>
+                <p class="address">Jernbanetorvet 3<br>
+                2821 Gjøvik<br>
+                Tlf: 61 00 22 44</p>
+            </div>
+            <div class="flex-item contact contact-site">
+                <form>
+                    <fieldset>
+                        <label>Your name&#58; <i class="redFormText">*</i><p id="nameErr" class="redFormText">You must fill in a name</p></label>
+                        <input type="text" name="name" placeholder="Your name" id="name">
+                        <label>Your email&#58; <i class="redFormText">*</i><p id="emailErr" class="redFormText">You must fill in a valid email</p></label>
+                        <input type="email" name="email" placeholder="example@someone.com" id="email">
+                        <label>Your mobilenumber&#58;<p id="phoneErr" class="redFormText">You must fill in your number in correct format</p></label>
+                        <input type="text" name="mobile" placeholder="Mobile number - +[countrycode][mobilenumber]" id="phone">
+                        <label>Your message&#58;<i class="redFormText">*</i><p id="messageErr" class="redFormText">You must fill in a message</p></label>
+                        <textarea name="message" placeholder="Your message" id="message"></textarea>
+                        <div class="formButtons">
+                            <input type="reset" value="Reset" id="reset">
+                            <input type="submit" value="Send" id="submit">
+                        </div>
+                        <p class="redFormText">* required fields.</p>
+                        <p class="redFormText" id="sendError"></p>
+                    </fieldset>
+                </form>
+            </div>
+        </article>
+    </main>
+    <footer>
+        <a href=""><img src="img/flogo-RGB-HEX-Blk-100.svg" alt=""></a>
+        <a href=""><img src="img/Twitter_Social_Icon_Rounded_Square_White.svg" alt=""></a>
+        <a href=""><img src="img/glyph-logo_May2016.png" alt=""></a>
+    </footer>
+    <script src="js/menu.min.js"></script>
+    <script src="js/contact.min.js"></script>
+</body>
+</html>
